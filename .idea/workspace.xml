@@ -10,6 +10,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Project_UnitTesting_EmailExample$unit_testing_in_Project_UnitTesting_EmailExample.ic" NAME="unit.testing in Project_UnitTesting_EmailExample Coverage Results" MODIFIED="1537734611867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unit.testing.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1680885090">
       <usages-collector id="statistics.lifecycle.project">
@@ -169,6 +174,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -198,12 +206,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="462" />
     <option name="y" value="23" />
     <option name="width" value="818" />
     <option name="height" value="723" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -275,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537734056065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537734607570" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -291,6 +300,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="unit.testing in Project_UnitTesting_EmailExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_UnitTesting_EmailExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unit.testing" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.unit.testing in Project_UnitTesting_EmailExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -301,12 +331,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537733774437</updated>
-      <workItem from="1537733777758" duration="278000" />
+      <workItem from="1537733777758" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278000" />
+    <option name="totallyTimeSpent" value="499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="462" y="23" width="818" height="723" extended-state="0" />
@@ -320,7 +350,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39819586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
