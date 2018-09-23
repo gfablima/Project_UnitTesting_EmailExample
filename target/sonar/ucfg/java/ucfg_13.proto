@@ -1,37 +1,0 @@
-
-<unit.testing.EmailClient#isValidAddress(Ljava/lang/String;)Z
-__unknown_file (emailAddress"3*ˆ
-1{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java ("…
-{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java (
-""*ˆ
-2{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java ("…
-{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java (
-""*ˆ
-3{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java! (Lù
-ö
-|
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java! („
-%0"__concat*-+
-)^([\\._A-Za-z0-9-]+)(\\.[_A-Za-z0-9-]+)*@*75
-3[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z0-9]{2,})$¢
-Ÿ
-|
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java (…
-emailCharacters"__id*
-
-%0Ü
-Ù
-{
-q/Users/glorialima/Documents/Personal/Project_UnitTesting_EmailExample/src/main/java/unit/testing/EmailClient.java (1
-%1"-java.lang.String#matches(Ljava/lang/String;)Z*
-
-emailAddress*
-
-emailCharacters*
-2
-1
