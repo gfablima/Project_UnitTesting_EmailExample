@@ -60,6 +60,7 @@ public class EmailClientTest {
         Assertions.assertFalse(emailClient.isValidEmail(emailBuilder));
     }
 
+    @Test
     public void IsValidEmail_EmptyToList_False() {
 
         ArrayList<String> listOfTo = new ArrayList<String>();

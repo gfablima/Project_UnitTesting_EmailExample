@@ -1,0 +1,7 @@
+organization=gfablima-github
+projectKey=gfablima_Project_UnitTesting_EmailExample
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.17063
+dashboardUrl=https://sonarcloud.io/dashboard?id=gfablima_Project_UnitTesting_EmailExample
+ceTaskId=AWYII-Dc-o61MP5s03iZ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWYII-Dc-o61MP5s03iZ

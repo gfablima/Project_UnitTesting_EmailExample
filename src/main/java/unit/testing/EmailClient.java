@@ -106,7 +106,7 @@ public class EmailClient {
     public void sendEmail(Email email) {
 
         if (isValidEmail(email)) {
-            if (!emailService.sendEmail(email)) {
+            if (emailService.sendEmail(email)==false) {
                 throw new RuntimeException("Email did not sent!");
             }
         } else {
