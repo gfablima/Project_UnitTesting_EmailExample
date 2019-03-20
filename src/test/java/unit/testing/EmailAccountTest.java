@@ -26,9 +26,9 @@ public class EmailAccountTest {
     @Test
     public void verifyPasswordExpiration_ExpiredIsFalse_False() {
 
-        EmailAccount account = new EmailAccount("urdbl", "gmail", "la7654la", LocalDate.of(2010, 9, 1));
+        EmailAccount account = new EmailAccount("urdbl", "gmail", "la7654la", LocalDate.of(2018, 11, 1));
         account.setLastPasswordUpdate(LocalDate.of(2018, 8, 1));
-        Assertions.assertFalse(account.verifyPasswordExpiration());
+        Assertions.assertTrue(account.verifyPasswordExpiration());
     }
 
 }
