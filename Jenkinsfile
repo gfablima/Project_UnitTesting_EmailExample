@@ -56,7 +56,7 @@ node {
 		echo 'Deploying....'
 		
                 if (status=='S'){ 
-		   archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+		   archiveArtifacts artifacts: 'target/devops2-jar.jar', fingerprint: true
 		}
 	}
 }
