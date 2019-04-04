@@ -62,7 +62,7 @@ node {
 		}
 		catch (e) {
 		  status = 'F'
-		  echo 'Falhou.'
+		  echo 'Deploy failed.'
 		  throw e
 		}
 	}
