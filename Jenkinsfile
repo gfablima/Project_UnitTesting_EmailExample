@@ -48,7 +48,6 @@ node {
 		       sh 'echo "Testes finalizados com erro"  >> resultado'
 			}
 			archiveArtifacts artifacts: '**/resultado', fingerprint: true
-			'**/target/*.jar', fingerprint: true
 		}
 	}
 	stage('Deploy') {
