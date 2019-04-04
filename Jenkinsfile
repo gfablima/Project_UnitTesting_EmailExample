@@ -56,7 +56,7 @@ node {
 		
 		try{
 	           sh "mvn package" 
-		   archiveArtifacts artifacts: '**/devops2-jar.jar', fingerprint: true
+		  
 		}
 		catch (e) {
 		  status = 'F'
