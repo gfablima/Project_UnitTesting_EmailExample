@@ -48,17 +48,15 @@ node {
 		       sh 'echo "Testes finalizados com erro"  >> resultado'
 			}
 			archiveArtifacts artifacts: '**/resultado', fingerprint: true
+			'**/target/*.jar', fingerprint: true
 		}
 	}
 	stage('Deploy') {
 	
 		echo 'Deploying....'
 		
-		sshagent(['git']) {
-                  sh "mvn -B -DskipTests clean deploy"
-                  sh "git push origin " + env.BRANCH_NAME
-                  sh "git push origin v${v}"
-                }
-		
+                if (status=='S'){ 
+		   archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+		}
 	}
 }
