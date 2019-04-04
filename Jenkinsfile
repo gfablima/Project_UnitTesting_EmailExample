@@ -30,7 +30,7 @@ node {
 	stage('Test') {		
 			echo 'Executando Testes Unitários e Testes de Integração ...'
 			try {
-			  sh "sudo docker run -v ${userdir}/devops/exercicio3/srv/jenkins/workspace/${env.JOB_NAME}:/workspace -w /workspace maven:latest mvn clean install" 
+			  sh "sudo docker run -v ${userdir}/devops/project2/srv/jenkins/workspace/${env.JOB_NAME}:/workspace -w /workspace maven:latest mvn clean install" 
 			  echo 'Sucesso!'			
 			  archiveArtifacts artifacts: '**/target/site/jacoco/index.html', fingerprint: true
 			}
