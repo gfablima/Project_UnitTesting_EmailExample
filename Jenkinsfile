@@ -54,11 +54,10 @@ node {
 	
 		echo 'Deploying....'
 		
-		withMaven(maven: 'Maven 3') {
-                  dir('Project_UnitTesting_EmailExample') {
-                    sh 'mvn clean package'
-                    dockerCmd 'build --tag Project_UnitTesting_EmailExample:SNAPSHOT .'
-                  }
+		sshagent(['git']) {
+                  sh "mvn -B -DskipTests clean deploy"
+                  sh "git push origin " + env.BRANCH_NAME
+                  sh "git push origin v${v}"
                 }
 		
 	}
