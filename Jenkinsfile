@@ -54,8 +54,14 @@ node {
 	
 		echo 'Deploying....'
 		
-                if (status=='S'){ 
-		   archiveArtifacts artifacts: '/target/devops2-jar.jar', fingerprint: true
+		try{
+	           sh "mvn package" 
+		   archiveArtifacts artifacts: '**/devops2-jar.jar', fingerprint: true
+		}
+		catch (e) {
+		  status = 'F'
+		  echo 'Falhou.'
+		  throw e
 		}
 	}
 }
